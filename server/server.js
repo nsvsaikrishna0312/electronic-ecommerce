@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const MONGO_URI = 'mongodb+srv://nsaikrishna:sai2004@cluster0.2ifjzcb.mongodb.net/?retryWrites=true&w=majority';
+const MONGO_URI = '';
 
 mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
